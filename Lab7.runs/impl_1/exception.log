@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file C:\Users\hsingh18\Desktop\Lab7_Finish_Anodes.xpr\Lab7\Lab7.runs\impl_1/runme.log
+	Exception name: Error
+	Exception error code: 70
+	Exception message: Permission denied

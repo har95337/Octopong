@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Thu Mar 16 18:46:06 2017
+# Process ID: 1064
+# Current directory: C:/Users/Harpreet/Documents/CMPE100/Lab7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5528 C:\Users\Harpreet\Documents\CMPE100\Lab7\Lab7.xpr
+# Log file: C:/Users/Harpreet/Documents/CMPE100/Lab7/vivado.log
+# Journal file: C:/Users/Harpreet/Documents/CMPE100/Lab7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.xpr
+synth_design -rtl -name rtl_1

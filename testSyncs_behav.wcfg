@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testSyncs_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testSyncs" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="328391039000fs"></ZoomStartTime>
+      <ZoomEndTime time="19968391039001fs"></ZoomEndTime>
+      <Cursor1Time time="3668391039000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="121"></NameColumnWidth>
+      <ValueColumnWidth column_width="133"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="28" />
+   <wvobject fp_name="/testSyncs/btnR" type="logic">
+      <obj_property name="ElementShortName">btnR</obj_property>
+      <obj_property name="ObjectShortName">btnR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/btnD" type="logic">
+      <obj_property name="ElementShortName">btnD</obj_property>
+      <obj_property name="ObjectShortName">btnD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/btnL" type="logic">
+      <obj_property name="ElementShortName">btnL</obj_property>
+      <obj_property name="ObjectShortName">btnL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/btnU" type="logic">
+      <obj_property name="ElementShortName">btnU</obj_property>
+      <obj_property name="ObjectShortName">btnU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/sw" type="array">
+      <obj_property name="ElementShortName">sw[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/clkin" type="logic">
+      <obj_property name="ElementShortName">clkin</obj_property>
+      <obj_property name="ObjectShortName">clkin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/an" type="array">
+      <obj_property name="ElementShortName">an[3:0]</obj_property>
+      <obj_property name="ObjectShortName">an[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/dp" type="logic">
+      <obj_property name="ElementShortName">dp</obj_property>
+      <obj_property name="ObjectShortName">dp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/seg" type="array">
+      <obj_property name="ElementShortName">seg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/led" type="array">
+      <obj_property name="ElementShortName">led[15:0]</obj_property>
+      <obj_property name="ObjectShortName">led[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/HS" type="logic">
+      <obj_property name="ElementShortName">HS</obj_property>
+      <obj_property name="ObjectShortName">HS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/vgaBlue" type="array">
+      <obj_property name="ElementShortName">vgaBlue[3:0]</obj_property>
+      <obj_property name="ObjectShortName">vgaBlue[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/vgaGreen" type="array">
+      <obj_property name="ElementShortName">vgaGreen[3:0]</obj_property>
+      <obj_property name="ObjectShortName">vgaGreen[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/vgaRed" type="array">
+      <obj_property name="ElementShortName">vgaRed[3:0]</obj_property>
+      <obj_property name="ObjectShortName">vgaRed[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/VS" type="logic">
+      <obj_property name="ElementShortName">VS</obj_property>
+      <obj_property name="ObjectShortName">VS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/oops" type="logic">
+      <obj_property name="ElementShortName">oops</obj_property>
+      <obj_property name="ObjectShortName">oops</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/rgb_oops" type="logic">
+      <obj_property name="ElementShortName">rgb_oops</obj_property>
+      <obj_property name="ObjectShortName">rgb_oops</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/good_HS" type="logic">
+      <obj_property name="ElementShortName">good_HS</obj_property>
+      <obj_property name="ObjectShortName">good_HS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/good_VS" type="logic">
+      <obj_property name="ElementShortName">good_VS</obj_property>
+      <obj_property name="ObjectShortName">good_VS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/activeH" type="logic">
+      <obj_property name="ElementShortName">activeH</obj_property>
+      <obj_property name="ObjectShortName">activeH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/activeV" type="logic">
+      <obj_property name="ElementShortName">activeV</obj_property>
+      <obj_property name="ObjectShortName">activeV</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/PERIOD" type="array">
+      <obj_property name="ElementShortName">PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/DUTY_CYCLE" type="other">
+      <obj_property name="ElementShortName">DUTY_CYCLE</obj_property>
+      <obj_property name="ObjectShortName">DUTY_CYCLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/OFFSET" type="array">
+      <obj_property name="ElementShortName">OFFSET[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OFFSET[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/GUT/SERRORS" type="array">
+      <obj_property name="ElementShortName">SERRORS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SERRORS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/RUT/RGBERRORS" type="array">
+      <obj_property name="ElementShortName">RGBERRORS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RGBERRORS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/UUT/VSync" type="logic">
+      <obj_property name="ElementShortName">VSync</obj_property>
+      <obj_property name="ObjectShortName">VSync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/UUT/HSync" type="logic">
+      <obj_property name="ElementShortName">HSync</obj_property>
+      <obj_property name="ObjectShortName">HSync</obj_property>
+   </wvobject>
+</wave_config>

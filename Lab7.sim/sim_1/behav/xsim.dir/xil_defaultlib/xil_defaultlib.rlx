@@ -1,0 +1,27 @@
+0.6
+2016.3
+Oct 10 2016
+19:46:48
+C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.sim/sim_1/behav/glbl.v,1476033524,verilog,,,,glbl,,,,,,,,
+C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sim_1/imports/Desktop/test2.v,1489003534,verilog,,,,check_the_rgb_signals;check_the_sync_signals;testSyncs,,,,,,,,
+C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/Desktop/lab7_clks.v,1489003534,verilog,,,,CB4CE_MXILINX_clkcntrl4;FTCE_MXILINX_clkcntrl4;clk_wiz_0;clkcntrl4;lab7_clks,,,,,,,,
+C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/hsingh18/Downloads/Lab_6_Done.xpr/Lab_6/Lab_6.srcs/sources_1/imports/new/SignChanger.v,1489003534,verilog,,,,SignChanger,,,,,,,,
+C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/hsingh18/Downloads/Lab_6_Done.xpr/Lab_6/Lab_6.srcs/sources_1/new/DownCounter.v,1489003534,verilog,,,,DownCounter,,,,,,,,
+C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/hsingh18/Downloads/Lab_6_Done.xpr/Lab_6/Lab_6.srcs/sources_1/new/Turkey_Counter.v,1489003534,verilog,,,,Turkey_Counter,,,,,,,,
+C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/hsingh18/Downloads/Lab_6_Done.xpr/Lab_6/Lab_6.srcs/sources_1/new/eight_bit_adder.v,1489003534,verilog,,,,eight_bit_adder,,,,,,,,
+C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/new/m2_1x8.v,1489003534,verilog,,,,m2_1x8,,,,,,,,
+C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/imports/CMPE100/Lab3_Fin/Lab3/Lab3_copy.srcs/sources_1/imports/sources_1/new/hex7seg.v,1489003534,verilog,,,,hex7seg,,,,,,,,
+C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/imports/new/FullAdder.v,1489003534,verilog,,,,FullAdder,,,,,,,,
+C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/imports/new/m4_1e.v,1489003534,verilog,,,,m4_1e,,,,,,,,
+C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/imports/new/m8_1e.v,1489003534,verilog,,,,m8_1e,,,,,,,,
+C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/EdgeDetector.v,1489003534,verilog,,,,EdgeDetector,,,,,,,,
+C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/RingCounter.v,1489003534,verilog,,,,RingCounter,,,,,,,,
+C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/count16L.v,1489003534,verilog,,,,count16L,,,,,,,,
+C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/count4L.v,1489003534,verilog,,,,count4L,,,,,,,,
+C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/selector.v,1489003534,verilog,,,,selector,,,,,,,,
+C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Ball.v,1489013858,verilog,,,,Ball,,,,,,,,
+C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Ball_Control.v,1489020600,verilog,,,,Ball_Control,,,,,,,,
+C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/LFSR.v,1489003534,verilog,,,,LFSR,,,,,,,,
+C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Paddle.v,1489014104,verilog,,,,Paddle,,,,,,,,
+C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Sync.v,1489003534,verilog,,,,VGA_Controller,,,,,,,,
+C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v,1489807989,verilog,,,,top_level,,,,,,,,

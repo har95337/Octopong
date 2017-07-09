@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Thu Mar 09 09:40:43 2017
+# Process ID: 7172
+# Current directory: C:/Users/hsingh18/Desktop/Lab7_Done.xpr/Lab7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4588 C:\Users\hsingh18\Desktop\Lab7_Done.xpr\Lab7\Lab7.xpr
+# Log file: C:/Users/hsingh18/Desktop/Lab7_Done.xpr/Lab7/vivado.log
+# Journal file: C:/Users/hsingh18/Desktop/Lab7_Done.xpr/Lab7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hsingh18/Desktop/Lab7_Done.xpr/Lab7/Lab7.xpr
+open_hw
+connect_hw_server
+open_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/hsingh18/Desktop/Lab7_Done.xpr/Lab7/Lab7.runs/impl_1/top_level.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+archive_project C:/Users/hsingh18/Desktop/Lab7.xpr.zip -temp_dir C:/Users/hsingh18/Desktop/Lab7_Done.xpr/Lab7/.Xil/Vivado-7172-BE104PC16 -force

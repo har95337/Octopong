@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sun Mar 05 17:41:04 2017
+# Process ID: 5976
+# Current directory: C:/Users/hsingh18/Desktop/Lab7_Paddle_Almost.xpr/Lab7/Lab7.runs/impl_1
+# Command line: vivado.exe -log top_level.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_level.tcl -notrace
+# Log file: C:/Users/hsingh18/Desktop/Lab7_Paddle_Almost.xpr/Lab7/Lab7.runs/impl_1/top_level.vdi
+# Journal file: C:/Users/hsingh18/Desktop/Lab7_Paddle_Almost.xpr/Lab7/Lab7.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source top_level.tcl -notrace
+
+*** Halting run - EA reset detected ***
+
+
+
+    while executing
+"start_step init_design"
+    (file "top_level.tcl" line 49)
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 05 17:41:09 2017...

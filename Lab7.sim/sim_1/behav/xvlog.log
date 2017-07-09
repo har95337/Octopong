@@ -1,0 +1,53 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/imports/new/m4_1e.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module m4_1e
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/imports/new/FullAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/new/m2_1x8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module m2_1x8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/hsingh18/Downloads/Lab_6_Done.xpr/Lab_6/Lab_6.srcs/sources_1/new/eight_bit_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eight_bit_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/count4L.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module count4L
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/hsingh18/Downloads/Lab_6_Done.xpr/Lab_6/Lab_6.srcs/sources_1/imports/new/SignChanger.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignChanger
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/count16L.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module count16L
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/hsingh18/Downloads/Lab_6_Done.xpr/Lab_6/Lab_6.srcs/sources_1/new/DownCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DownCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/imports/new/m8_1e.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module m8_1e
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/LFSR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LFSR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Ball_Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ball_Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/hsingh18/Downloads/Lab_6_Done.xpr/Lab_6/Lab_6.srcs/sources_1/new/Turkey_Counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Turkey_Counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/EdgeDetector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EdgeDetector
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/imports/CMPE100/Lab3_Fin/Lab3/Lab3_copy.srcs/sources_1/imports/sources_1/new/hex7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hex7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module selector
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/RingCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RingCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Ball.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ball
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Paddle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Paddle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Sync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VGA_Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/Desktop/lab7_clks.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab7_clks
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-311] analyzing module clkcntrl4
+INFO: [VRFC 10-311] analyzing module FTCE_MXILINX_clkcntrl4
+INFO: [VRFC 10-311] analyzing module CB4CE_MXILINX_clkcntrl4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_level
+INFO: [VRFC 10-2458] undeclared symbol btn_L, assumed default net type wire [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v:71]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sim_1/imports/Desktop/test2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testSyncs
+INFO: [VRFC 10-311] analyzing module check_the_sync_signals
+INFO: [VRFC 10-311] analyzing module check_the_rgb_signals
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

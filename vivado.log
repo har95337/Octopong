@@ -1,0 +1,551 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Thu Mar 16 18:46:06 2017
+# Process ID: 1064
+# Current directory: C:/Users/Harpreet/Documents/CMPE100/Lab7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5528 C:\Users\Harpreet\Documents\CMPE100\Lab7\Lab7.xpr
+# Log file: C:/Users/Harpreet/Documents/CMPE100/Lab7/vivado.log
+# Journal file: C:/Users/Harpreet/Documents/CMPE100/Lab7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/hsingh18/Desktop/Lab7_Done.xpr/Lab7/.Xil/Vivado-7172-BE104PC16/PrjAr/_X_' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 761.754 ; gain = 112.945
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: top_level
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:35 ; elapsed = 00:00:28 . Memory (MB): peak = 807.246 ; gain = 597.316
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top_level' [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v:23]
+INFO: [Synth 8-638] synthesizing module 'lab7_clks' [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/Desktop/lab7_clks.v:24]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/Desktop/lab7_clks.v:57]
+INFO: [Synth 8-638] synthesizing module 'IBUF' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:14146]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUF' (1#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:14146]
+INFO: [Synth 8-638] synthesizing module 'MMCME2_ADV' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20414]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 9.125000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 36.500000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT1_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PSEN_INVERTED bound to: 1'b0 
+	Parameter IS_PSINCDEC_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: float 
+	Parameter SS_EN bound to: FALSE - type: string 
+	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
+	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-256] done synthesizing module 'MMCME2_ADV' (2#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20414]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (3#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_0' (4#1) [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/Desktop/lab7_clks.v:57]
+INFO: [Synth 8-638] synthesizing module 'clkcntrl4' [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/Desktop/lab7_clks.v:190]
+INFO: [Synth 8-638] synthesizing module 'CB4CE_MXILINX_clkcntrl4' [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/Desktop/lab7_clks.v:306]
+INFO: [Synth 8-638] synthesizing module 'FTCE_MXILINX_clkcntrl4' [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/Desktop/lab7_clks.v:276]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-638] synthesizing module 'XOR2' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:45290]
+INFO: [Synth 8-256] done synthesizing module 'XOR2' (5#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:45290]
+INFO: [Synth 8-638] synthesizing module 'FDCE' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3748]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDCE' (6#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FTCE_MXILINX_clkcntrl4' (7#1) [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/Desktop/lab7_clks.v:276]
+INFO: [Synth 8-638] synthesizing module 'AND4' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:108]
+INFO: [Synth 8-256] done synthesizing module 'AND4' (8#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:108]
+INFO: [Synth 8-638] synthesizing module 'AND3' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:60]
+INFO: [Synth 8-256] done synthesizing module 'AND3' (9#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:60]
+INFO: [Synth 8-638] synthesizing module 'AND2' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:14]
+INFO: [Synth 8-256] done synthesizing module 'AND2' (10#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:14]
+INFO: [Synth 8-638] synthesizing module 'VCC' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:44693]
+INFO: [Synth 8-256] done synthesizing module 'VCC' (11#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:44693]
+INFO: [Synth 8-256] done synthesizing module 'CB4CE_MXILINX_clkcntrl4' (12#1) [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/Desktop/lab7_clks.v:306]
+INFO: [Synth 8-638] synthesizing module 'BUF' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:567]
+INFO: [Synth 8-256] done synthesizing module 'BUF' (13#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:567]
+WARNING: [Synth 8-3848] Net qsec in module/entity clkcntrl4 does not have driver. [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/Desktop/lab7_clks.v:194]
+INFO: [Synth 8-256] done synthesizing module 'clkcntrl4' (14#1) [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/Desktop/lab7_clks.v:190]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/Desktop/lab7_clks.v:40]
+INFO: [Synth 8-638] synthesizing module 'STARTUPE2' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:43498]
+	Parameter PROG_USR bound to: FALSE - type: string 
+	Parameter SIM_CCLK_FREQ bound to: 0.000000 - type: float 
+INFO: [Synth 8-256] done synthesizing module 'STARTUPE2' (15#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:43498]
+INFO: [Synth 8-256] done synthesizing module 'lab7_clks' (16#1) [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/Desktop/lab7_clks.v:24]
+WARNING: [Synth 8-350] instance 'not_so_slow' of module 'lab7_clks' requires 5 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v:55]
+INFO: [Synth 8-638] synthesizing module 'VGA_Controller' [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Sync.v:23]
+INFO: [Synth 8-638] synthesizing module 'FDRE' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE' (17#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+WARNING: [Synth 8-350] instance 'ff_instance_1095' of module 'FDRE' requires 5 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Sync.v:39]
+WARNING: [Synth 8-350] instance 'ff_instance_1096' of module 'FDRE' requires 5 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Sync.v:40]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized0' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized0' (17#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized1' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized1' (17#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized2' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized2' (17#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized3' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized3' (17#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+WARNING: [Synth 8-350] instance 'ff_instance_1097' of module 'FDRE' requires 5 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Sync.v:41]
+INFO: [Synth 8-638] synthesizing module 'count16L' [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/count16L.v:23]
+INFO: [Synth 8-638] synthesizing module 'count4L' [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/count4L.v:23]
+INFO: [Synth 8-638] synthesizing module 'FullAdder' [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/imports/new/FullAdder.v:23]
+INFO: [Synth 8-638] synthesizing module 'm4_1e' [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/imports/new/m4_1e.v:23]
+INFO: [Synth 8-256] done synthesizing module 'm4_1e' (18#1) [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/imports/new/m4_1e.v:23]
+INFO: [Synth 8-256] done synthesizing module 'FullAdder' (19#1) [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/imports/new/FullAdder.v:23]
+WARNING: [Synth 8-350] instance 'add0' of module 'FullAdder' requires 6 connections, but only 5 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/count4L.v:36]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized4' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized4' (19#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+WARNING: [Synth 8-350] instance 'ff_instance_1095' of module 'FDRE' requires 5 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/count4L.v:38]
+WARNING: [Synth 8-350] instance 'add1' of module 'FullAdder' requires 6 connections, but only 5 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/count4L.v:40]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized5' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized5' (19#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+WARNING: [Synth 8-350] instance 'ff_instance_1096' of module 'FDRE' requires 5 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/count4L.v:42]
+WARNING: [Synth 8-350] instance 'add2' of module 'FullAdder' requires 6 connections, but only 5 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/count4L.v:44]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized6' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized6' (19#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+WARNING: [Synth 8-350] instance 'ff_instance_1097' of module 'FDRE' requires 5 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/count4L.v:46]
+WARNING: [Synth 8-350] instance 'add3' of module 'FullAdder' requires 6 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/count4L.v:48]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized7' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized7' (19#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+WARNING: [Synth 8-350] instance 'ff_instance_10978' of module 'FDRE' requires 5 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/count4L.v:50]
+INFO: [Synth 8-256] done synthesizing module 'count4L' (20#1) [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/count4L.v:23]
+INFO: [Synth 8-256] done synthesizing module 'count16L' (21#1) [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/count16L.v:23]
+WARNING: [Synth 8-350] instance 'Horz' of module 'count16L' requires 6 connections, but only 5 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Sync.v:47]
+WARNING: [Synth 8-350] instance 'Vert' of module 'count16L' requires 6 connections, but only 5 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Sync.v:51]
+WARNING: [Synth 8-3848] Net vgaRed in module/entity VGA_Controller does not have driver. [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Sync.v:30]
+WARNING: [Synth 8-3848] Net vgaGreen in module/entity VGA_Controller does not have driver. [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Sync.v:31]
+INFO: [Synth 8-256] done synthesizing module 'VGA_Controller' (22#1) [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Sync.v:23]
+WARNING: [Synth 8-350] instance 'VGA' of module 'VGA_Controller' requires 9 connections, but only 7 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v:68]
+INFO: [Synth 8-638] synthesizing module 'Paddle' [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Paddle.v:23]
+WARNING: [Synth 8-350] instance 'ff_instance_1095' of module 'FDRE' requires 5 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Paddle.v:42]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized8' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized8' (22#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized9' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized9' (22#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized10' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized10' (22#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized11' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized11' (22#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+WARNING: [Synth 8-350] instance 'ff_instance_1099' of module 'FDRE' requires 5 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Paddle.v:43]
+INFO: [Synth 8-638] synthesizing module 'Turkey_Counter' [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/hsingh18/Downloads/Lab_6_Done.xpr/Lab_6/Lab_6.srcs/sources_1/new/Turkey_Counter.v:23]
+WARNING: [Synth 8-350] instance 'timeUp' of module 'count16L' requires 6 connections, but only 5 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/hsingh18/Downloads/Lab_6_Done.xpr/Lab_6/Lab_6.srcs/sources_1/new/Turkey_Counter.v:35]
+INFO: [Synth 8-638] synthesizing module 'DownCounter' [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/hsingh18/Downloads/Lab_6_Done.xpr/Lab_6/Lab_6.srcs/sources_1/new/DownCounter.v:23]
+INFO: [Synth 8-638] synthesizing module 'SignChanger' [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/hsingh18/Downloads/Lab_6_Done.xpr/Lab_6/Lab_6.srcs/sources_1/imports/new/SignChanger.v:23]
+INFO: [Synth 8-638] synthesizing module 'eight_bit_adder' [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/hsingh18/Downloads/Lab_6_Done.xpr/Lab_6/Lab_6.srcs/sources_1/new/eight_bit_adder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'eight_bit_adder' (23#1) [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/hsingh18/Downloads/Lab_6_Done.xpr/Lab_6/Lab_6.srcs/sources_1/new/eight_bit_adder.v:23]
+INFO: [Synth 8-638] synthesizing module 'm2_1x8' [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/new/m2_1x8.v:23]
+INFO: [Synth 8-256] done synthesizing module 'm2_1x8' (24#1) [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/new/m2_1x8.v:23]
+INFO: [Synth 8-256] done synthesizing module 'SignChanger' (25#1) [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/hsingh18/Downloads/Lab_6_Done.xpr/Lab_6/Lab_6.srcs/sources_1/imports/new/SignChanger.v:23]
+INFO: [Synth 8-256] done synthesizing module 'DownCounter' (26#1) [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/hsingh18/Downloads/Lab_6_Done.xpr/Lab_6/Lab_6.srcs/sources_1/new/DownCounter.v:23]
+WARNING: [Synth 8-350] instance 'timeDown' of module 'DownCounter' requires 6 connections, but only 5 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/hsingh18/Downloads/Lab_6_Done.xpr/Lab_6/Lab_6.srcs/sources_1/new/Turkey_Counter.v:36]
+INFO: [Synth 8-256] done synthesizing module 'Turkey_Counter' (27#1) [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/hsingh18/Downloads/Lab_6_Done.xpr/Lab_6/Lab_6.srcs/sources_1/new/Turkey_Counter.v:23]
+WARNING: [Synth 8-350] instance 'updown' of module 'Turkey_Counter' requires 8 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Paddle.v:45]
+INFO: [Synth 8-256] done synthesizing module 'Paddle' (28#1) [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Paddle.v:23]
+INFO: [Synth 8-638] synthesizing module 'EdgeDetector' [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/EdgeDetector.v:23]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized12' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized12' (28#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+WARNING: [Synth 8-350] instance 'ff_instance_1095' of module 'FDRE' requires 5 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/EdgeDetector.v:29]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized13' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized13' (28#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+WARNING: [Synth 8-350] instance 'ff_instance_1096' of module 'FDRE' requires 5 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/EdgeDetector.v:30]
+INFO: [Synth 8-256] done synthesizing module 'EdgeDetector' (29#1) [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/EdgeDetector.v:23]
+INFO: [Synth 8-638] synthesizing module 'Ball' [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Ball.v:23]
+INFO: [Synth 8-638] synthesizing module 'Ball_Control' [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Ball_Control.v:23]
+WARNING: [Synth 8-350] instance 'Q0_FF' of module 'FDRE' requires 5 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Ball_Control.v:48]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized14' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized14' (29#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized15' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized15' (29#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized16' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized16' (29#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized17' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized17' (29#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized18' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized18' (29#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized19' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized19' (29#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+WARNING: [Synth 8-350] instance 'Q123_FF' of module 'FDRE' requires 5 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Ball_Control.v:49]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized20' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized20' (29#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+WARNING: [Synth 8-350] instance 'LEFTSYNCHRO' of module 'FDRE' requires 5 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Ball_Control.v:51]
+INFO: [Synth 8-256] done synthesizing module 'Ball_Control' (30#1) [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Ball_Control.v:23]
+WARNING: [Synth 8-350] instance 'xchanger' of module 'Turkey_Counter' requires 8 connections, but only 6 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Ball.v:69]
+WARNING: [Synth 8-350] instance 'ychanger' of module 'Turkey_Counter' requires 8 connections, but only 6 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Ball.v:71]
+INFO: [Synth 8-638] synthesizing module 'LFSR' [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/LFSR.v:23]
+WARNING: [Synth 8-350] instance 'RND0' of module 'FDRE' requires 5 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/LFSR.v:33]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized21' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized21' (30#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+WARNING: [Synth 8-350] instance 'RND1' of module 'FDRE' requires 5 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/LFSR.v:34]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized22' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized22' (30#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+WARNING: [Synth 8-350] instance 'RND2' of module 'FDRE' requires 5 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/LFSR.v:35]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized23' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized23' (30#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+WARNING: [Synth 8-350] instance 'RND3' of module 'FDRE' requires 5 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/LFSR.v:36]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized24' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized24' (30#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+WARNING: [Synth 8-350] instance 'RND4' of module 'FDRE' requires 5 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/LFSR.v:37]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized25' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized25' (30#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+WARNING: [Synth 8-350] instance 'RND5' of module 'FDRE' requires 5 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/LFSR.v:38]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized26' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized26' (30#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+WARNING: [Synth 8-350] instance 'RND6' of module 'FDRE' requires 5 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/LFSR.v:39]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized27' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized27' (30#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+WARNING: [Synth 8-350] instance 'RND7' of module 'FDRE' requires 5 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/LFSR.v:40]
+INFO: [Synth 8-256] done synthesizing module 'LFSR' (31#1) [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/LFSR.v:23]
+WARNING: [Synth 8-350] instance 'flash' of module 'count16L' requires 6 connections, but only 5 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Ball.v:75]
+WARNING: [Synth 8-350] instance 'randomstuff' of module 'count4L' requires 6 connections, but only 5 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Ball.v:81]
+INFO: [Synth 8-256] done synthesizing module 'Ball' (32#1) [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Ball.v:23]
+WARNING: [Synth 8-350] instance 'timer' of module 'count16L' requires 6 connections, but only 5 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v:93]
+WARNING: [Synth 8-387] label required on module instance [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v:95]
+WARNING: [Synth 8-350] instance 'nolabel_line95' of module 'Turkey_Counter' requires 8 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v:95]
+WARNING: [Synth 8-387] label required on module instance [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v:97]
+INFO: [Synth 8-638] synthesizing module 'RingCounter' [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/RingCounter.v:23]
+WARNING: [Synth 8-350] instance 'ff_instance_1095' of module 'FDRE' requires 5 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/RingCounter.v:29]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized28' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized28' (32#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+WARNING: [Synth 8-350] instance 'ff_instance_1096' of module 'FDRE' requires 5 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/RingCounter.v:31]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized29' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized29' (32#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+WARNING: [Synth 8-350] instance 'ff_instance_1097' of module 'FDRE' requires 5 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/RingCounter.v:33]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized30' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized30' (32#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+WARNING: [Synth 8-350] instance 'ff_instance_1098' of module 'FDRE' requires 5 connections, but only 4 given [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/RingCounter.v:35]
+INFO: [Synth 8-256] done synthesizing module 'RingCounter' (33#1) [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/RingCounter.v:23]
+INFO: [Synth 8-638] synthesizing module 'selector' [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/selector.v:23]
+INFO: [Synth 8-256] done synthesizing module 'selector' (34#1) [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/selector.v:23]
+INFO: [Synth 8-638] synthesizing module 'hex7seg' [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/imports/CMPE100/Lab3_Fin/Lab3/Lab3_copy.srcs/sources_1/imports/sources_1/new/hex7seg.v:23]
+INFO: [Synth 8-638] synthesizing module 'm8_1e' [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/imports/new/m8_1e.v:23]
+INFO: [Synth 8-256] done synthesizing module 'm8_1e' (35#1) [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/imports/new/m8_1e.v:23]
+INFO: [Synth 8-256] done synthesizing module 'hex7seg' (36#1) [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/imports/CMPE100/Lab3_Fin/Lab3/Lab3_copy.srcs/sources_1/imports/sources_1/new/hex7seg.v:23]
+WARNING: [Synth 8-3848] Net led in module/entity top_level does not have driver. [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v:35]
+INFO: [Synth 8-256] done synthesizing module 'top_level' (37#1) [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v:23]
+WARNING: [Synth 8-3917] design top_level has port an[2] driven by constant 1
+WARNING: [Synth 8-3917] design top_level has port dp driven by constant 1
+WARNING: [Synth 8-3331] design FullAdder has unconnected port e
+WARNING: [Synth 8-3331] design Paddle has unconnected port sw[10]
+WARNING: [Synth 8-3331] design Paddle has unconnected port sw[9]
+WARNING: [Synth 8-3331] design Paddle has unconnected port sw[8]
+WARNING: [Synth 8-3331] design Paddle has unconnected port sw[7]
+WARNING: [Synth 8-3331] design Paddle has unconnected port sw[6]
+WARNING: [Synth 8-3331] design Paddle has unconnected port sw[5]
+WARNING: [Synth 8-3331] design Paddle has unconnected port sw[4]
+WARNING: [Synth 8-3331] design Paddle has unconnected port sw[3]
+WARNING: [Synth 8-3331] design Paddle has unconnected port sw[2]
+WARNING: [Synth 8-3331] design Paddle has unconnected port sw[1]
+WARNING: [Synth 8-3331] design Paddle has unconnected port sw[0]
+WARNING: [Synth 8-3331] design VGA_Controller has unconnected port vgaRed[3]
+WARNING: [Synth 8-3331] design VGA_Controller has unconnected port vgaRed[2]
+WARNING: [Synth 8-3331] design VGA_Controller has unconnected port vgaRed[1]
+WARNING: [Synth 8-3331] design VGA_Controller has unconnected port vgaRed[0]
+WARNING: [Synth 8-3331] design VGA_Controller has unconnected port vgaGreen[3]
+WARNING: [Synth 8-3331] design VGA_Controller has unconnected port vgaGreen[2]
+WARNING: [Synth 8-3331] design VGA_Controller has unconnected port vgaGreen[1]
+WARNING: [Synth 8-3331] design VGA_Controller has unconnected port vgaGreen[0]
+WARNING: [Synth 8-3331] design clkcntrl4 has unconnected port qsec
+WARNING: [Synth 8-3331] design top_level has unconnected port led[15]
+WARNING: [Synth 8-3331] design top_level has unconnected port led[14]
+WARNING: [Synth 8-3331] design top_level has unconnected port led[13]
+WARNING: [Synth 8-3331] design top_level has unconnected port led[12]
+WARNING: [Synth 8-3331] design top_level has unconnected port led[11]
+WARNING: [Synth 8-3331] design top_level has unconnected port led[10]
+WARNING: [Synth 8-3331] design top_level has unconnected port led[9]
+WARNING: [Synth 8-3331] design top_level has unconnected port led[8]
+WARNING: [Synth 8-3331] design top_level has unconnected port led[7]
+WARNING: [Synth 8-3331] design top_level has unconnected port led[6]
+WARNING: [Synth 8-3331] design top_level has unconnected port led[5]
+WARNING: [Synth 8-3331] design top_level has unconnected port led[4]
+WARNING: [Synth 8-3331] design top_level has unconnected port led[3]
+WARNING: [Synth 8-3331] design top_level has unconnected port led[2]
+WARNING: [Synth 8-3331] design top_level has unconnected port led[1]
+WARNING: [Synth 8-3331] design top_level has unconnected port led[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:37 ; elapsed = 00:00:30 . Memory (MB): peak = 837.438 ; gain = 627.508
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin ff_instance_1095:R to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/count4L.v:38]
+WARNING: [Synth 8-3295] tying undriven pin ff_instance_1096:R to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/count4L.v:42]
+WARNING: [Synth 8-3295] tying undriven pin ff_instance_1097:R to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/count4L.v:46]
+WARNING: [Synth 8-3295] tying undriven pin ff_instance_10978:R to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/count4L.v:50]
+WARNING: [Synth 8-3295] tying undriven pin ff_instance_1095:R to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Sync.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ff_instance_1096:R to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Sync.v:40]
+WARNING: [Synth 8-3295] tying undriven pin ff_instance_1097[3]:R to constant 0
+WARNING: [Synth 8-3295] tying undriven pin ff_instance_1097[2]:R to constant 0
+WARNING: [Synth 8-3295] tying undriven pin ff_instance_1097[1]:R to constant 0
+WARNING: [Synth 8-3295] tying undriven pin ff_instance_1097[0]:R to constant 0
+WARNING: [Synth 8-3295] tying undriven pin ff_instance_1095:R to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Paddle.v:42]
+WARNING: [Synth 8-3295] tying undriven pin updown:LD to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Paddle.v:45]
+WARNING: [Synth 8-3295] tying undriven pin updown:D[15] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Paddle.v:45]
+WARNING: [Synth 8-3295] tying undriven pin updown:D[14] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Paddle.v:45]
+WARNING: [Synth 8-3295] tying undriven pin updown:D[13] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Paddle.v:45]
+WARNING: [Synth 8-3295] tying undriven pin updown:D[12] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Paddle.v:45]
+WARNING: [Synth 8-3295] tying undriven pin updown:D[11] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Paddle.v:45]
+WARNING: [Synth 8-3295] tying undriven pin updown:D[10] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Paddle.v:45]
+WARNING: [Synth 8-3295] tying undriven pin updown:D[9] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Paddle.v:45]
+WARNING: [Synth 8-3295] tying undriven pin updown:D[8] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Paddle.v:45]
+WARNING: [Synth 8-3295] tying undriven pin updown:D[7] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Paddle.v:45]
+WARNING: [Synth 8-3295] tying undriven pin updown:D[6] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Paddle.v:45]
+WARNING: [Synth 8-3295] tying undriven pin updown:D[5] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Paddle.v:45]
+WARNING: [Synth 8-3295] tying undriven pin updown:D[4] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Paddle.v:45]
+WARNING: [Synth 8-3295] tying undriven pin updown:D[3] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Paddle.v:45]
+WARNING: [Synth 8-3295] tying undriven pin updown:D[2] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Paddle.v:45]
+WARNING: [Synth 8-3295] tying undriven pin updown:D[1] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Paddle.v:45]
+WARNING: [Synth 8-3295] tying undriven pin updown:D[0] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Paddle.v:45]
+WARNING: [Synth 8-3295] tying undriven pin ff_instance_1099[3]:R to constant 0
+WARNING: [Synth 8-3295] tying undriven pin ff_instance_1099[2]:R to constant 0
+WARNING: [Synth 8-3295] tying undriven pin ff_instance_1099[1]:R to constant 0
+WARNING: [Synth 8-3295] tying undriven pin ff_instance_1099[0]:R to constant 0
+WARNING: [Synth 8-3295] tying undriven pin ff_instance_1095:R to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/EdgeDetector.v:29]
+WARNING: [Synth 8-3295] tying undriven pin ff_instance_1096:R to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/EdgeDetector.v:30]
+WARNING: [Synth 8-3295] tying undriven pin Q0_FF:R to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Ball_Control.v:48]
+WARNING: [Synth 8-3295] tying undriven pin LEFTSYNCHRO:R to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/Ball_Control.v:51]
+WARNING: [Synth 8-3295] tying undriven pin Q123_FF[6]:R to constant 0
+WARNING: [Synth 8-3295] tying undriven pin Q123_FF[5]:R to constant 0
+WARNING: [Synth 8-3295] tying undriven pin Q123_FF[4]:R to constant 0
+WARNING: [Synth 8-3295] tying undriven pin Q123_FF[3]:R to constant 0
+WARNING: [Synth 8-3295] tying undriven pin Q123_FF[2]:R to constant 0
+WARNING: [Synth 8-3295] tying undriven pin Q123_FF[1]:R to constant 0
+WARNING: [Synth 8-3295] tying undriven pin RND0:R to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/LFSR.v:33]
+WARNING: [Synth 8-3295] tying undriven pin RND1:R to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/LFSR.v:34]
+WARNING: [Synth 8-3295] tying undriven pin RND2:R to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/LFSR.v:35]
+WARNING: [Synth 8-3295] tying undriven pin RND3:R to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/LFSR.v:36]
+WARNING: [Synth 8-3295] tying undriven pin RND4:R to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/LFSR.v:37]
+WARNING: [Synth 8-3295] tying undriven pin RND5:R to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/LFSR.v:38]
+WARNING: [Synth 8-3295] tying undriven pin RND6:R to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/LFSR.v:39]
+WARNING: [Synth 8-3295] tying undriven pin RND7:R to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/LFSR.v:40]
+WARNING: [Synth 8-3295] tying undriven pin ff_instance_1095:R to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/RingCounter.v:29]
+WARNING: [Synth 8-3295] tying undriven pin ff_instance_1096:R to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/RingCounter.v:31]
+WARNING: [Synth 8-3295] tying undriven pin ff_instance_1097:R to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/RingCounter.v:33]
+WARNING: [Synth 8-3295] tying undriven pin ff_instance_1098:R to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/RingCounter.v:35]
+WARNING: [Synth 8-3295] tying undriven pin nolabel_line95:LD to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v:95]
+WARNING: [Synth 8-3295] tying undriven pin nolabel_line95:D[15] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v:95]
+WARNING: [Synth 8-3295] tying undriven pin nolabel_line95:D[14] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v:95]
+WARNING: [Synth 8-3295] tying undriven pin nolabel_line95:D[13] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v:95]
+WARNING: [Synth 8-3295] tying undriven pin nolabel_line95:D[12] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v:95]
+WARNING: [Synth 8-3295] tying undriven pin nolabel_line95:D[11] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v:95]
+WARNING: [Synth 8-3295] tying undriven pin nolabel_line95:D[10] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v:95]
+WARNING: [Synth 8-3295] tying undriven pin nolabel_line95:D[9] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v:95]
+WARNING: [Synth 8-3295] tying undriven pin nolabel_line95:D[8] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v:95]
+WARNING: [Synth 8-3295] tying undriven pin nolabel_line95:D[7] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v:95]
+WARNING: [Synth 8-3295] tying undriven pin nolabel_line95:D[6] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v:95]
+WARNING: [Synth 8-3295] tying undriven pin nolabel_line95:D[5] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v:95]
+WARNING: [Synth 8-3295] tying undriven pin nolabel_line95:D[4] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v:95]
+WARNING: [Synth 8-3295] tying undriven pin nolabel_line95:D[3] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v:95]
+WARNING: [Synth 8-3295] tying undriven pin nolabel_line95:D[2] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v:95]
+WARNING: [Synth 8-3295] tying undriven pin nolabel_line95:D[1] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v:95]
+WARNING: [Synth 8-3295] tying undriven pin nolabel_line95:D[0] to constant 0 [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/sources_1/new/top_level.v:95]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:37 ; elapsed = 00:00:30 . Memory (MB): peak = 837.438 ; gain = 627.508
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 52 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 2 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 12 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/constrs_1/imports/Desktop/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/Harpreet/Documents/CMPE100/Lab7/Lab7.srcs/constrs_1/imports/Desktop/Basys3_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 49 instances were transformed.
+  AND2 => LUT2: 12 instances
+  AND3 => LUT3: 6 instances
+  AND4 => LUT4: 6 instances
+  BUF => LUT1: 1 instances
+  XOR2 => LUT2: 24 instances
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:01:02 ; elapsed = 00:00:48 . Memory (MB): peak = 1192.996 ; gain = 983.066
+144 Infos, 160 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:25 . Memory (MB): peak = 1192.996 ; gain = 425.664

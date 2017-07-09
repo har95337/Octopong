@@ -1,0 +1,29 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/sources_1/imports/new/m4_1e.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/sources_1/imports/new/FullAdder.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/new/m2_1x8.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/hsingh18/Downloads/Lab_6_Done.xpr/Lab_6/Lab_6.srcs/sources_1/new/eight_bit_adder.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/sources_1/new/count4L.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/hsingh18/Downloads/Lab_6_Done.xpr/Lab_6/Lab_6.srcs/sources_1/imports/new/SignChanger.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/sources_1/new/count16L.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/hsingh18/Downloads/Lab_6_Done.xpr/Lab_6/Lab_6.srcs/sources_1/new/DownCounter.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/sources_1/imports/new/m8_1e.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/new/LFSR.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/new/Ball_Control.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/hsingh18/Downloads/Lab_6_Done.xpr/Lab_6/Lab_6.srcs/sources_1/new/Turkey_Counter.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/sources_1/new/EdgeDetector.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/sources_1/imports/CMPE100/Lab3_Fin/Lab3/Lab3_copy.srcs/sources_1/imports/sources_1/new/hex7seg.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/sources_1/new/selector.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/sources_1/new/RingCounter.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/new/Ball.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/new/Paddle.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/new/Sync.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/imports/Desktop/lab7_clks.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sources_1/new/top_level.v"
+verilog xil_defaultlib  "../../../Lab7.srcs/sim_1/imports/Desktop/test2.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
